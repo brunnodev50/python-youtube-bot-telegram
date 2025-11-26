@@ -1,16 +1,47 @@
-# python-youtube-bot-telegram
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md) High-performance Telegram bot for downloading and managing YouTube content. Built with Python, yt-dlp, and clean architecture principles.
+# 🤖 YouTube Media Downloader Bot for Telegram
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![yt-dlp](https://img.shields.io/badge/yt--dlp-Media-red?style=for-the-badge&logo=youtube&logoColor=white)
 
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.pt-br.md) Bot de Telegram de alto desempenho para baixar e gerenciar conteúdo do YouTube. Desenvolvido com Python, yt-dlp e princípios de arquitetura limpa.
+<p align="center">
+  <a href="#-english">🇺🇸 Read in English</a> &nbsp;&bull;&nbsp;
+  <a href="#-portugês">🇧🇷 Leia em Português</a>
+</p>
 
+---
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md) 1- To function, it is necessary to create a bot on Telegram using the parent bot at https://telegram.me/BotFather to obtain the bot token on Telegram.
+<div id="-english"></div>
 
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.pt-br.md)  1-Para funcionar e necessario criar um  bot no telegram atraves do bot father https://telegram.me/BotFather para obter o token do bot no telegram.
+## 🇺🇸 English
 
+### 📖 About
+High-performance Telegram bot designed to download and manage YouTube content seamlessly. Built using **Python**, **yt-dlp**, and following **Clean Architecture** principles to ensure maintainability and scalability.
 
-# Print:
+### ✨ Features
+* Download videos from YouTube directly via Telegram.
+* Selectable video quality.
+* Fast and efficient media handling.
 
-![printsistema](https://github.com/user-attachments/assets/5e70910e-6f36-438a-8488-c87703512ba7)
+### 🚀 How to Run
 
+#### 1. Get your API Token
+To function, you must create a bot on Telegram via **BotFather**:
+1.  Open [BotFather](https://telegram.me/BotFather).
+2.  Send the command `/newbot`.
+3.  Follow the instructions to get your **HTTP API Token**.
+
+#### 2. Configure the Code
+> **Security Note:** Ideally, store tokens in an `.env` file. For this version, follow the manual step below:
+
+1.  Open the file `bot.py`.
+2.  Go to **line 6**.
+3.  Replace the empty variable `TOKEN = ''` with your token:
+    ```python
+    TOKEN = 'YOUR_TOKEN_HERE_123456'
+    ```
+
+#### 3. Start the Bot
+Run the script in your terminal:
+```bash
+python bot.py
