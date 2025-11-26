@@ -7,19 +7,14 @@
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-Media-red?style=for-the-badge&logo=youtube&logoColor=white)
 
 <h3>
-  <a href="#en">🇺🇸 English</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#pt">🇧🇷 Português</a>
+  <a href="README.pt-br.md">🇧🇷 Leia em Português</a>
 </h3>
 
 </div>
 
 ---
 
-<a id="en"></a>
-## 🇺🇸 English
-
-### 📖 About
+## 🇺🇸 About
 High-performance Telegram bot designed to download and manage YouTube content seamlessly. Built using **Python**, **yt-dlp**, and following **Clean Architecture** principles to ensure maintainability and scalability.
 
 ### ✨ Features
