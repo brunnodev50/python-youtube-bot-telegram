@@ -1,18 +1,22 @@
 # 🤖 YouTube Media Downloader Bot for Telegram
 
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-Media-red?style=for-the-badge&logo=youtube&logoColor=white)
 
-<p align="center">
-  <a href="#-english">🇺🇸 Read in English</a> &nbsp;&bull;&nbsp;
-  <a href="#-portugês">🇧🇷 Leia em Português</a>
-</p>
+<h3>
+  <a href="#en">🇺🇸 English</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pt">🇧🇷 Português</a>
+</h3>
+
+</div>
 
 ---
 
-<div id="-english"></div>
-
+<a id="en"></a>
 ## 🇺🇸 English
 
 ### 📖 About
